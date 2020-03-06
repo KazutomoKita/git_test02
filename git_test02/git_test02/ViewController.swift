@@ -22,5 +22,9 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func tappedButton(_ sender: Any) {
+        self.label.text = "trash"
+        self.imageView.image = UIImage(named: "trash")
+    }
 }
 
